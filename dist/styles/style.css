@@ -1,14 +1,1 @@
-/* Variables */
-:root {
-  --primary-color: ;
-  --secondary-color: ;
-  --max-width: ;
-}
-
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+.navbar{font-size:2rem;text-transform:uppercase}.navbar__logo{width:15rem}.navbar__links{list-style:none}.navbar__links li a:link,.navbar__links li a:active,.navbar__links li a:visited{color:#e6e6e6;text-decoration:none}*{padding:0;margin:0;box-sizing:border-box}html{font-size:62.5%}@font-face{font-family:'OCR A Extended', monospace;src:url(/dist/fonts/ocraext.ttf)}body{font-family:"OCR A Extended", monospace;font-size:1.6rem;color:#e6e6e6;background-color:#1f1f1f}

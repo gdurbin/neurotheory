@@ -1,0 +1,32 @@
+.navbar {
+  font-size: 2rem;
+  text-transform: uppercase; }
+  .navbar__logo {
+    width: 15rem; }
+  .navbar__links {
+    list-style: none; }
+    .navbar__links li a:link,
+    .navbar__links li a:active,
+    .navbar__links li a:visited {
+      color: #e6e6e6;
+      text-decoration: none; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+@font-face {
+  font-family: 'OCR A Extended', monospace;
+  src: url(/dist/fonts/ocraext.ttf); }
+
+body {
+  font-family: "OCR A Extended", monospace;
+  font-size: 1.6rem;
+  color: #e6e6e6;
+  background-color: #1f1f1f; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNvbmNhdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2YseUJBQXlCLEVBQUU7RUFDM0I7SUFDRSxZQUFZLEVBQUU7RUFDaEI7SUFDRSxnQkFBZ0IsRUFBRTtJQUNsQjs7O01BR0UsY0FBYztNQUNkLHFCQUFxQixFQUFFOztBQUU3QjtFQUNFLFVBQVU7RUFDVixTQUFTO0VBQ1Qsc0JBQXNCLEVBQUU7O0FBRTFCO0VBQ0UsZ0JBQWdCLEVBQUU7O0FBRXBCO0VBQ0Usd0NBQXdDO0VBQ3hDLGlDQUFpQyxFQUFFOztBQUVyQztFQUNFLHdDQUF3QztFQUN4QyxpQkFBaUI7RUFDakIsY0FBYztFQUNkLHlCQUF5QixFQUFFIiwiZmlsZSI6InN0eWxlLnByZWZpeC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubmF2YmFyIHtcbiAgZm9udC1zaXplOiAycmVtO1xuICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOyB9XG4gIC5uYXZiYXJfX2xvZ28ge1xuICAgIHdpZHRoOiAxNXJlbTsgfVxuICAubmF2YmFyX19saW5rcyB7XG4gICAgbGlzdC1zdHlsZTogbm9uZTsgfVxuICAgIC5uYXZiYXJfX2xpbmtzIGxpIGE6bGluayxcbiAgICAubmF2YmFyX19saW5rcyBsaSBhOmFjdGl2ZSxcbiAgICAubmF2YmFyX19saW5rcyBsaSBhOnZpc2l0ZWQge1xuICAgICAgY29sb3I6ICNlNmU2ZTY7XG4gICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7IH1cblxuKiB7XG4gIHBhZGRpbmc6IDA7XG4gIG1hcmdpbjogMDtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDsgfVxuXG5odG1sIHtcbiAgZm9udC1zaXplOiA2Mi41JTsgfVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6ICdPQ1IgQSBFeHRlbmRlZCcsIG1vbm9zcGFjZTtcbiAgc3JjOiB1cmwoL2Rpc3QvZm9udHMvb2NyYWV4dC50dGYpOyB9XG5cbmJvZHkge1xuICBmb250LWZhbWlseTogXCJPQ1IgQSBFeHRlbmRlZFwiLCBtb25vc3BhY2U7XG4gIGZvbnQtc2l6ZTogMS42cmVtO1xuICBjb2xvcjogI2U2ZTZlNjtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzFmMWYxZjsgfVxuIl19 */
