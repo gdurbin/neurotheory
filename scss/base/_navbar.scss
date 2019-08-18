@@ -1,0 +1,19 @@
+.navbar {
+  font-size: 2rem;
+  text-transform: uppercase;
+
+  &__logo {
+    width: 15rem;
+  }
+
+  &__links {
+    list-style: none;
+
+    & li a:link,
+    & li a:active,
+    & li a:visited {
+      color: $text-primary;
+      text-decoration: none;
+    }
+  }
+}

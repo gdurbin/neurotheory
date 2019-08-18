@@ -1,0 +1,19 @@
+// Custome Fonts
+@font-face {
+  font-family: 'OCR A Extended', monospace;
+  src: url(/dist/fonts/ocraext.ttf);
+}
+
+// Google Fonts
+
+// Font Variables
+$font-primary: 'OCR A Extended', monospace;
+
+// Styles
+body {
+  font-family: $font-primary;
+  font-size: 1.6rem;
+  color: $text-primary;
+  background-color: $bg-primary;
+}
+
