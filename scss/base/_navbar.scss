@@ -1,12 +1,21 @@
 .navbar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
   font-size: 2rem;
   text-transform: uppercase;
 
   &__logo {
+    display: inline-block;
+    justify-self: start;
     width: 15rem;
+    margin-left: 3rem;
   }
 
   &__links {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    align-content: center;
     list-style: none;
 
     & li a:link,
@@ -14,6 +23,10 @@
     & li a:visited {
       color: $text-primary;
       text-decoration: none;
+    }
+
+    & li a:hover {
+      border-bottom: 2px solid $text-primary;
     }
   }
 }

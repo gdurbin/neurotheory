@@ -1,0 +1,11 @@
+header {
+  margin: 1rem ;
+  text-align: center
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+}
