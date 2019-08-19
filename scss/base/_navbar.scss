@@ -21,12 +21,21 @@
     & li a:link,
     & li a:active,
     & li a:visited {
-      color: $text-primary;
+      color: $clr-primary;
       text-decoration: none;
     }
 
-    & li a:hover {
-      border-bottom: 2px solid $text-primary;
+    & li a::after {
+      display: block;
+      padding-bottom: .5rem;
+      content: '';
+      border-bottom: 2px solid $clr-blue;
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
+
+    & li a:hover::after {
+      transform: scaleX(.7);
     }
   }
 }
