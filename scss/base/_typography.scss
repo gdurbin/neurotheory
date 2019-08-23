@@ -17,3 +17,19 @@ body {
   background-color: $bg-primary;
 }
 
+section {
+
+  .about,
+  .contact {
+
+    &__title {
+      font-size: 5rem;
+      color: $clr-blue;
+    }
+
+    &__text-box {
+      line-height: 1.6;
+    }
+  }
+}
+

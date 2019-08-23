@@ -1,7 +1,10 @@
 .navbar {
+  position: fixed;
+  background-color: $bg-primary;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+  width: 100%;
   font-size: 2rem;
   text-transform: uppercase;
 
@@ -14,7 +17,7 @@
 
   &__links {
     display: grid;
-    grid-template-columns: repeat(6, 100px);
+    grid-template-columns: repeat(7, 100px);
     align-content: center;
     list-style: none;
 

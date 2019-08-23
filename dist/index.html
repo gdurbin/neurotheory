@@ -17,9 +17,10 @@
 			<li class="navbar__item"><a href="#intro">Home</a></li>
 			<li class="navbar__item"><a href="#about">About</a></li>
 			<li class="navbar__item"><a href="#">Listen</a></li>
+			<li class="navbar__item"><a href="#">Press</a></li>
 			<li class="navbar__item"><a href="#">Blog</a></li>
 			<li class="navbar__item"><a href="#">Store</a></li>
-			<li class="navbar__item"><a href="#">Contact</a></li>
+			<li class="navbar__item"><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 </header>
@@ -34,16 +35,32 @@
 			<h2 class="about__title">About</h2>
 			<h3 class="about__sub-title">Neuro Theory</h3>
 		</div>
-			<p class="about__text-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, rerum? Quasi perferendis earum, non accusantium quis delectus, eveniet asperiores dignissimos corrupti, deserunt atque corporis dolor error porro laboriosam amet molestias. Dolor, in ipsum fuga ex atque illo similique facere magni animi quasi facilis voluptate iusto veritatis asperiores accusantium blanditiis iure!</p>
+		<p class="about__text-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, rerum? Quasi perferendis earum, non accusantium quis delectus, eveniet asperiores dignissimos corrupti, deserunt atque corporis dolor error porro laboriosam amet molestias. Dolor, in ipsum fuga ex atque illo similique facere magni animi quasi facilis voluptate iusto veritatis asperiores accusantium blanditiis iure!</p>
 	</section>
 
-	<section class="contact">
+	<section class="contact" id="contact">
 		<div class="contact__title-box">
 			<h2 class="contact__title">Contact</h2>
 			<h3 class="contact__sub-title">Neuro Theory</h3>
 		</div>
-			<form action="" class="contact__form">
+			<form  class="contact__form form" name="contact" action="#" method="POST" data-netlify="true">
+				<div class="contact__name">
+					<label for="name">Name:</label></br>
+					<input type="text" name="name" id="name">
+				</div>
+				<div class="contact__email">
+					<label for="email">Email:</label></br>
+					<input type="email" name="email" id="email">
+				</div>
+				<div class="contact__msg">
+					<label for="msg">Comment/Message:</label></br>
+					<textarea name="msg" id="msg"></textarea>
+				</div>
+				<div class="contact__btn">
+					<button type="submit">Submit</button>
+				</div>
 
+				
 			</form>
 	</section>
 
@@ -52,5 +69,6 @@
 	</footer>
 </main>
 
+	<script src="/dist/scripts/script.js"></script>
 </body>
 </html>

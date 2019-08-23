@@ -7,22 +7,31 @@ main {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr, repeat(2, 50rem);
   justify-content: center;
+  align-content: center;
 }
 
 section.intro {
   justify-self: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 6.5rem;
+}  
 
-  .intro {
+.intro {
+  display: grid;
+  grid-template-columns: 1fr;
 
-    &__img {
-      width: 100%;
-    }
+  &__img {
+    width: 100%;
   }
 }
 
 section.about {
   justify-self: center;
+  align-items: center;
   width: 80rem;
+  height: 90vh;
+  margin-top: 6.5rem;
 }
 
 .about {
@@ -35,6 +44,7 @@ section.about {
     justify-self: end;
     text-align: right;
     padding-right: 2rem;
+    margin-bottom: 125px;
 
     &__title {
       grid-area: 1 / 1 / 2 / 2;
@@ -54,7 +64,10 @@ section.about {
 
 section.contact {
   justify-self: center;
+  align-items: center;
   width: 80rem;
+  height: 90vh;
+  margin-top: 6.5rem;
 }
 
 .contact {
@@ -67,6 +80,7 @@ section.contact {
     justify-self: end;
     text-align: right;
     padding-right: 2rem;
+    margin-bottom: 125px;
 
     &__title {
       grid-area: 1 / 1 / 2 / 2;
