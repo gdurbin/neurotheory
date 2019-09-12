@@ -1,0 +1,53 @@
+.nav {
+  position: fixed;
+  background-color: $bg-primary;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  width: 100%;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-top: 1rem;
+
+  &__logo {
+    display: inline-block;
+    justify-self: start;
+    width: 15rem;
+    margin-left: 3rem;
+  }
+
+  .nav__title {
+    font-family: 'OCR A Extended', monospace;
+    color: $clr-blue;
+    justify-self: start;
+    margin-left: 3rem;
+    text-transform: none;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    align-content: center;
+    list-style: none; 
+  }
+
+  &__link:link,
+  &__link:active,
+  &__link:visited {
+    color: $clr-primary;
+    text-decoration: none;
+  }
+
+  &__link::after {
+    display: block;
+    padding-bottom: .5rem;
+    content: '';
+    border-bottom: 2px solid $clr-blue;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+
+  &__link:hover::after {
+    transform: scaleX(.7);
+  }
+}

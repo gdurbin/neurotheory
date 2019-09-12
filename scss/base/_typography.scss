@@ -4,8 +4,6 @@
   src: url(/dist/fonts/ocraext.ttf);
 }
 
-// Google Fonts
-
 // Font Variables
 $font-primary: 'OCR A Extended', monospace;
 
@@ -17,19 +15,16 @@ body {
   background-color: $bg-primary;
 }
 
-section {
+.about,
+.contact {
 
-  .about,
-  .contact {
+  &__title {
+    font-size: 5rem;
+    color: $clr-blue;
+  }
 
-    &__title {
-      font-size: 5rem;
-      color: $clr-blue;
-    }
-
-    &__text-box {
-      line-height: 1.6;
-    }
+  &__text-box {
+    line-height: 1.6;
   }
 }
 
