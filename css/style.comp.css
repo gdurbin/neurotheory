@@ -122,14 +122,14 @@ main {
 .hero {
   display: grid;
   grid-template-columns: 1fr;
-  justify-self: end;
+  justify-self: start;
   align-items: center;
   height: 90vh;
   margin-top: 6.5rem; }
   .hero__logo {
     width: 100%;
     max-width: 1000px;
-    margin-right: 4rem; }
+    margin-left: 4rem; }
 
 .about {
   display: grid;
