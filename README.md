@@ -1,3 +1,3 @@
-# Neuro Theory Website | [neuro-thoery.com](https://www.neuro-thoery.com)
+# Neuro Theory Website | [neuro-theory.com](https://www.neuro-theory.com)
 
 Neuro Theory Website
